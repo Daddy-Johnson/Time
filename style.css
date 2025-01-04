@@ -11,7 +11,8 @@ body {
     background-image: url(./IMG_20240718_164446.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
+    background-attachment: fixed;
     font-family: 'Red Hat Text', sans-serif;
     height: 100vh;
     width: 100vw;
@@ -208,7 +209,7 @@ footer {
 
     body{
         overflow: visible;
-        background-repeat: repeat;
+        background-position: -50px center;
     }
 
 
